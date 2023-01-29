@@ -44,4 +44,20 @@ public class Bookservice {
 	public Book findbytitle(String title) {
 		return bookrepository.findByTitle(title);
 	}
+	
+	public void deletebyISBN(String ISBN)
+	{
+		bookrepository.deleteById(ISBN);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

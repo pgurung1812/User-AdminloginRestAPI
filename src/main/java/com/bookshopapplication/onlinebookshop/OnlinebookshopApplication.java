@@ -34,21 +34,21 @@ import com.bookshopapplication.onlinebookshop.service.Userservice;
 @SpringBootApplication
 //@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 public class OnlinebookshopApplication implements CommandLineRunner{
-
-	@Autowired
-	private StudentService studentService;
-	@Autowired
-	private Userservice userservice;
+//
 //	@Autowired
-//	private StudentRepository studentRepository;
-	
-	@Autowired
-	private Bookservice bookservice;
-	@Autowired
-	private LaptopService laptopService;
-	
-	@Autowired
-	private Categoryrepo categoryrepo;
+//	private StudentService studentService;
+//	@Autowired
+//	private Userservice userservice;
+////	@Autowired
+////	private StudentRepository studentRepository;
+//	
+//	@Autowired
+//	private Bookservice bookservice;
+//	@Autowired
+//	private LaptopService laptopService;
+//	
+//	@Autowired
+//	private Categoryrepo categoryrepo;
 	
 	public static void main(String[] args) {
 		

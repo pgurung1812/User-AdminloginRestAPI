@@ -30,14 +30,19 @@ public class Userservice {
 	    if(u.isPresent())
 	    {
 	    	user3=u.get();
-	    }
-	    if((user3.getUsername().equals(user.getUsername())) & (user3.getPassword().equals(user.getPassword())))
+	    
+	         if((user3.getUsername().equals(user.getUsername())) & (user3.getPassword().equals(user.getPassword())))
 	    		{
 	    	      return true;
 	    		}
+	         else {
+				return false;
+			}
+	    }
 	    else {
 			return false;
 		}
+	
 	}
 
 }
